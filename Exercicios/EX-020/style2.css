@@ -1,0 +1,21 @@
+@charset "URF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+div:hover{
+    color: red;
+}
+
+div:hover > p{ /* Isso é um "PROTOTIPO" de um menu no estilo dropbox, significa que a DIV:HOVER  tem um filho (>) P e com isso posso editar o paragrafo dentro da div ou oque for. */
+    display: block;
+    color: white;
+    background-color: black;
+    width: 300px;
+}
+
+div > p { /* Se eu usar o > significa que o P é filho de uma DIV, então ele so vai mexer no paragrafo que esta dentro dessa div */
+    display: none;
+}

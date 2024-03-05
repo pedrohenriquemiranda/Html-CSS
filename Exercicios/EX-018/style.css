@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Blacket';
+    src: url('fontes/Blacket\ -\ Personal\ use\ Regular.otf') format('opentype'); /* Sempre organizar as  fontes em uma pasta para não sair da organização e sempre lembrar de colocar o diretorio da pasta no url por exemplo: src: url('NOME DA PASTA / NOME DA FONTE') format(' Tipo do formato'); */
+    font-weight: normal;
+    font-style: normal;
+
+    /*Tipos de format , tanto quanto a parte dentro do url e format dentro dos () tem que adicionar ('') exemplo src: url ('NOME DA FONTE') format('FORMATO DA FONTE');
+    Esses tipos de formatos podem varias de navegador, para navegador ,mas geralmente OTF e TTF funcionam em todos os navegadores, lembrar de sempre procurar os tipos de formatos usados nos navegadores.
+    opentype = otf
+    truetype = ttf
+    embedded-opentype
+    truetype-aat = Apple Advanced Typography
+    svg */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); /*Sempre tem que estar no começo do arquivo CSS e nunca pode estar em um seletor*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: 'Arial', Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+h1{
+    font-family: 'Blacket';
+    font-weight: normal;
+    font-size: 2em;
+}
+
+h2{
+    font-family: "Bebas Neue", sans-serif;
+}

@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+body{
+    font-family: 'Courier New', Courier, monospace; /* Essa ordem de "fontes" ele sempre vai escolher a primeira que funcionar no dispositivo */
+    font-size: 16px; 
+    background-image: linear-gradient(to bottom , #B2BEBF 40%, #889C9B);
+    background-attachment: fixed;
+    color: rgb(0, 0, 0);
+    text-decoration: none ; /* underline, none, solid, etc...*/
+    font-style: normal ; /* italic, normal, olbique , etc.. */
+    font-weight: normal ; /* lighter , normal , bold , bolder */
+    /*
+    Medidas Absolutas
+    cm , mm , in(Polegada), px(Recomendado para uso), pt, pc - esses não são recomendados)
+    
+    16px é o tamanho da fonte padrão.
+    16px geralmente é = 1em.
+
+    Medidas Relativas
+    em(Tamanho atual da fonte referente ao M, o mais usado),  ex(Tamanho X de uma fonte), rem(Relativa ao tamanho da fonte usada), vw(Largura da viewport relativo ao tamanho da tela), vh(Altura da viewport), % */
+    
+    /* Weight = peso / Width = largura / Height = tamanho */
+}
+
+main{
+    background-color: rgba(255, 255, 255, 0.37);
+    text-align: center;
+
+}
+
+h3{
+    font-size: 2em;
+    font-style: normal;
+}
+
+h1{ /* Posso escolher mais de uma tag <h1> <h2> <h3> para ter a mesma fonte (mas acho melhor fazer tudo junto para não ter problema) */
+    font: italic bolder 1.6em 'Times New Roman',Times, serif;
+    color: #a82327f1;
+    text-shadow: 1px 1px 2px black;
+    /* shorthand font - serve para transformar tudo em uma unica linha, não é obrigado a ter todas essas propriedades para fazer uma shorthand.
+
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+     
+    */
+}

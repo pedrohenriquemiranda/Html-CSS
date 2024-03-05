@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(32, 32, 32);
+    color: whitesmoke;
+}
+
+a{ 
+    color: red;
+    text-decoration: none; /* Para tirar sublinhado */
+    font-weight: bold;
+}
+
+a:visited{  /* Visited é uma pseudoclasse para sites ja visitos ou paginas */
+    color: darkred;
+}
+
+a:hover{
+    text-decoration: underline black;
+}
+
+a:active{ /* O texto/link que eu clicar vai mudar a cor */
+    color: darkgreen;
+}
+
+a::before{
+    content: ' 👉';
+
+}
+a::after{ 
+    content: ' 👈'; /* Um "conteudo" (palavra/simbolo, etc) adicionado depois do meu link */
+}
+
+.especial{
+    background-color: salmon;
+
+}

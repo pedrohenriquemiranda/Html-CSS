@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            
+        }
+        mark{
+            background-color: lime; /* Se eu quiser mudar todas as cores do marcador basta utilizar uma mark{ 
+                background-color: (cor);Que automaticamente mudara todas as cores do marcador PADRAO */
+            }
+    </style>
+    <title>Formatação de texto</title>
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <h2>Negrito/Destaque</h2>
+    <p>Nessa frase <b>termo em negrito</b> usando a tag &lt;b&gt; (nao semantica)</p> <!--Para adicionar em negrito é apenas usar a tag <b>e aqui dentro escrever a palavra em destaque</b>-->
+    <p>Nesta frase tenho um <strong>termo em destaque</strong> usando a tag &lt;STRONG&gt; (Semantica)</p>
+    <h2>Italico/enfase</h2>
+    <p>Nesta frase temos um <i>termo em italico</i> usando o termo I (nao semantico)</p> <!--Posso usar p CTRL + SHIFT + P , e escrever "i" para deixar em italico-->
+    <p>Nesta frase temos um <em>termo em enfase</em> usando a tag EM (Semantica)</p><!--Posso usar p CTRL + SHIFT + P , e escrever "EM" para deixar em italico-->
+    <h2>Texto marcado</h2>
+    <p>Nesta frase posso utilizar a <mark style="background-color: purple;">tag MARK</mark> para marcar alguma parte do texto</p> <!--Para mudar a cor do marcador teremos que usar a tag <mark style="background-color: (Cor utilizada) para poder mudar a cor do marcador"-->
+    <p>E no outro paragrafo se quisermos mudar a <mark>cor do marcador</mark> teremos que utilizar novamente a tag MARK STYLE = *******</p> <!--E se quiser utilizar a cor padrao do marcador é apenas usar <mark>TEXTO</mark>-->
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> nessa pagina</p> <!--BIG nao usa mais-->
+    <h2>Texto deletado</h2>
+    <p>Podemos marcar um <del>texto como exluido</del> para indicar que ele deve ser lido , mas nao considerado</p> <!--Posso usar para poder "cortar" um texto usando a tag <del>TEXTO</del>-->
+    <h2>Texto inserido</h2>
+    <p>Podemos marcar um <ins>texto como incluido</ins> para dar uma enfase e indicar que ele foi adicionado depois</p> <!--Posso usar para sublinhar um texto usando a tag <ins>TEXTO</ins>-->
+    <p>Existe tambem o <u>sublinhado</u> com a tag U (nao semantica)</p> <!--Ou tambem posso usar a tag <u>TEXTO</u> para poder deixar sublinhado (Mesmo sabendo que essa tag pode acabar a qualquer momento)-->
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir cosias do tipo X<sup>20</sup>+3 </p> <!--Posso usar o (X<sup>20</sup>+3)   para em equações ou para colocar os numeros/letras na parte decima-->
+    <h2>Texto subscrito</h2>
+    <p>Para inserir coisas tipo H<sub>2</sub>O</p> <!--Ou tambem usar H<sub>2</sub>0 para usar os numeros/letras na parte de baixo-->
+</body>
+</html>

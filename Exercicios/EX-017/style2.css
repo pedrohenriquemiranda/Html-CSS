@@ -1,0 +1,22 @@
+body{
+    font: normal 16px Arial, Verdana, serif; /* Ordem do shorthand */
+    text-align: left;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: right;
+}
+ /* text-align: é usado para alinhar os textos de uma pagina.
+ left = deixa o texto a esquerda
+ right = deixa o texto a direita
+ center = centraliza o texto
+ justify = deixa o texto entre a esquerda e a direita o deixando mais organizado na hora de ler */
+
+p{
+    text-align: justify;
+    text-indent: 20px; /* Usado para dar um espaço no começo do texto para simbolizar um paragrafo */
+}

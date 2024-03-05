@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: darkgray;
+
+}
+
+header{
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: 10px;
+    border: 10px solid rgba(0, 0, 0, 0.774);
+}
+
+main{
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: 10px;
+    border: solid 10px black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.651);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 0px;
+}
+
+footer > p{
+    margin: 0px;
+}
+
+article{
+    background-color: lightgray;
+    padding: 5px;
+}
+
+article > aside{
+    background-color: rgb(107, 107, 107);
+}
+
+nav{
+    background-color: rgb(105, 104, 104);
+    padding: 5px;
+    box-shadow: 5px 3px 7px rgba(0, 0, 0, 0.74);
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bold;
+    margin-right: 30px;
+}
+
+nav > a:hover{
+    text-decoration: overline;
+}
+
+section > p{
+    text-decoration: none;
+    background-color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+p > a:hover{
+    text-decoration: none;
+    color: blue;
+}
+
+p > a{
+    text-decoration: none;
+    color: rgb(85, 5, 5);
+}
+
+
+div#olho{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    margin: 2px;
+    border-radius: 100%;
+}
+/* Teste para fazer um olho em CSS
+div#iris{
+    display: inline-block;
+    height: 80px;
+    position: absolute;
+    width: 80px;
+    background-color: rgba(0, 128, 0, 0.616);
+    margin: 10px;
+    border-radius: 100%;
+}
+
+div#pupila{
+    display: inline-block;
+    height: 60px;
+    position: absolute ;
+    width: 60px;
+    background-color: black;
+    margin: 10px;
+    border-radius: 50%;
+
+}
+*/

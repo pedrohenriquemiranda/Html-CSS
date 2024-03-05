@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(152, 225, 247);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+h1#principal{ /* Usando a # no CSS na frente de uma tag eu posso dar um ID para poder identificar essa tag em especifica */
+    text-align: center;
+    background-color: rgba(49, 49, 49, 0.459);
+    color:whitesmoke;
+
+}
+
+h1{
+    color: rgb(1, 0, 41)
+}
+
+h2{
+    color:rgba(42, 29, 223, 0.596);
+}
+
+.basico{
+    color: rgba(138, 4, 4, 0.774) ;
+    font-weight: bold;
+}
+
+.intermediario{
+    color: rgb(97, 97, 3) ;
+}
+
+.avancado{
+    color: rgb(1, 73, 1);
+}
+
+.destaque{
+    background-color: rgba(48, 224, 157, 0.411);
+}
