@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+div.bloco{
+    background-image: url(imagens/wallpaper003.jpg);
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+/* div h1{
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    margin:70px 0px 40px 10px;
+}
+ */
+ 
+div#q1{
+    background-position: left top;
+    color: white;
+}
+
+div#q2{
+    background-position: left center;
+    color: white;
+}
+
+div#q3{
+    background-position: right bottom;
+    color: white;
+}
+
+div#q4{
+    background-position: center center;
+    color: White;
+}
