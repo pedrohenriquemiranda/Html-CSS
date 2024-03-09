@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
 
 *{
-
     font-size: 30px;
     padding: 0px;
     margin: 0px;
@@ -50,12 +49,12 @@ body{
     position: relative;
     
 }
-
+/*
 main{
     
     
 }
-
+*/
 #imagem1{
     background-image: url(imagens/background001.jpg);
     background-attachment: fixed;
