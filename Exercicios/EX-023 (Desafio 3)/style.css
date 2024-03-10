@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    border-collapse: collapse;
+    width: 500px;
+}
+
+
+
+td ,th{
+    border: 1px solid black;
+    text-align: center;
+}
+
+tr > th:nth-last-child(odd){
+    background-color: gray;
+    color: white;
+}
+
+tr > th:nth-last-child(2n){
+    background-color: gray;
+    color: white;
+}

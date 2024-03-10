@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    border-right: 1px solid black;
+}
+
+col.cnome{
+    background-color: rgba(0, 0, 255, 0.329);
+}
+
+caption{
+    font-weight: bold;
+}
+
+table{
+    border-collapse: collapse;
+    width: 400px;
+    padding: 8px;
+}
+
+td, th{
+    padding: 8px;
+    border: 1px solid black;
+}
